@@ -1,0 +1,24 @@
+{
+  "name": "movieshuffle",
+  "version": "1.0.0",
+  "description": "A lightweight and efficient backend API built with Node JS to provide random movie selections. Designed to integrate seamlessly with the frontend, it processes movie data, fetches information from TMDB, and delivers curated results for a better user experience.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.9.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
